@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="description" content="Website of Coffee blog">
+
+        <!-- Normalized -->
+        <link rel="preload" href="css/normalized.css" as="style">
+        <link rel="stylesheet" href="css/normalized.css">
+
+        <!-- GOOGLE FONTS -->
+        <link rel="preload"
+            href="https://fonts.googleapis.com/css2?family=Open+Sans&family=PT+Sans:wght@400;700&display=swap"
+            crossorigin="crossorigin" as="font">
+        <link rel="stylesheet" href>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link
+            href="https://fonts.googleapis.com/css2?family=Open+Sans&family=PT+Sans:wght@400;700&display=swap"
+            rel="stylesheet">
+
+        <!-- CSS -->
+        <link rel="preload" href="css/style.css" as="style">
+        <link rel="stylesheet" href="css/style.css">
+
+        <!-- Prefetch -->
+        <link rel="prefetch" href="aboutus.html" as="document">
+
+        <title>Cafe Blog</title>
+    </head>
+    <body>
+
+        <header class="header">
+            <div class="container">
+                <div class="bar">
+                    <a class="logo" href="index.html">
+                        <h1 class="logo__name no-margin center-text">Blog<span
+                                class="logo__bold">DeCafe</span></h1>
+                    </a>
+
+                    <nav class="nav center-text">
+                        <a href="aboutus.html" class="nav__link">About Us</a>
+                        <a href="courses.html" class="nav__link">Courses</a>
+                        <a href="contactus.html" class="nav__link">Contact Us</a>
+                    </nav>
+                </div> <!-- .bar -->
+            </div> <!-- .container -->
+
+            <div class="header__text">
+                <h2 class="no-margin">Cafe Blog, Courses and Tips</h2>
+                <p class="no-margin"> Learn from from truely coffee Experts the
+                    best recipes and tips</p>
+            </div>
+
+        </header>
+
+        <div class="container main-content">
+            <main class="blog">
+                <h3>Our Blog</h3>
+                <article class="entry">
+                    <div class="img-entry">
+
+                        <picture>
+                            <source srcset="img/blog1.webp" type="image/webp">
+                            <img src="img/blog1.jpg" alt="imagen blog"
+                                loading="lazy">
+                        </picture>
+
+                    </div>
+                    <div class="entry-content">
+                        <h4 class="no-margin">Types of Coffee Beans</h4>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing
+                            elit. Ipsam laboriosam, cum et, eligendi repudiandae
+                            qui deleniti facere commodi voluptatibus totam fuga
+                            exercitationem quis quisquam culpa consequatur quo
+                            possimus sapiente ipsum.</p>
+                        <a href="entry.html" class="button primary--button">Read
+                            this Article</a>
+                    </div>
+                </article>
+
+                <article class="entry">
+                    <div class="img-entry" loading="lazy">
+                        <picture>
+                            <source srcset="img/blog2.webp" type="image/webp">
+                            <img src="img/blog2.jpg" alt="imagen blog"
+                                loading="lazy">
+                        </picture>
+                    </div>
+                    <div class="entry-content">
+                        <h4 class="no-margin">Three amazing Coffee Recipes</h4>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing
+                            elit. Ipsam laboriosam, cum et, eligendi repudiandae
+                            qui deleniti facere commodi voluptatibus totam fuga
+                            exercitationem quis quisquam culpa consequatur quo
+                            possimus sapiente ipsum.</p>
+                        <a href="entry.html" class="button primary--button">Read
+                            this Article</a>
+                    </div>
+                </article>
+
+                <article class="entry">
+                    <div class="img-entry">
+                        <picture>
+                            <source srcset="img/blog3.webp" type="image/webp">
+                            <img src="img/blog3.jpg" alt="imagen blog"
+                                loading="lazy">
+                        </picture>
+                    </div>
+                    <div class="entry-content">
+                        <h4 class="no-margin">Benefits of Drinking Coffee</h4>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing
+                            elit. Ipsam laboriosam, cum et, eligendi repudiandae
+                            qui deleniti facere commodi voluptatibus totam fuga
+                            exercitationem quis quisquam culpa consequatur quo
+                            possimus sapiente ipsum.</p>
+                        <a href="entry.html" class="button primary--button">Read
+                            this Article</a>
+                    </div>
+                </article>
+
+            </main>
+            <aside class="sidebar">
+                <h3>Our Courses and Workshops</h3>
+
+                <ul class="courses no-padding">
+                    <li class="course__widget">
+                        <h4 class="no-margin">Extraction of Coffee Techniques</h4>
+                        <p class="course__widget--label"> Price:
+                            <span class="course__widget--info">Free</span>
+                        </p>
+
+                        <p class="course__widget--label"> Places:
+                            <span class="course__widget--info">20</span>
+                        </p>
+
+                        <a href="courses.html" class="button secundary--button">More
+                            Info about our courses HERE</a>
+
+                    </li>
+
+                    <li class="course__widget">
+                        <h4 class="no-margin">4 Easy Recipes for Beginners</h4>
+                        <p class="course__widget--label"> Price:
+                            <span class="course__widget--info">Free</span>
+                        </p>
+
+                        <p class="course__widget--label"> Places:
+                            <span class="course__widget--info">20</span>
+                        </p>
+
+                        <a href="courses.html" class="button secundary--button">More
+                            Info about our courses HERE</a>
+
+                    </li>
+                </ul>
+            </aside>
+        </div>
+
+        <footer class="footer">
+            <div class="container">
+                <div class="bar">
+                    <a class="logo" href="index.html">
+                        <h3 class="logo__name no-margin center-text">Blog<span
+                                class="logo__bold">DeCafe</span></h3>
+                    </a>
+
+                    <nav class="nav center-text">
+                        <a href="aboutus.html" class="nav__link">About Us</a>
+                        <a href="courses.html" class="nav__link">Courses</a>
+                        <a href="contactus.html" class="nav__link">Contact Us</a>
+                    </nav>
+                </div> <!-- .bar -->
+            </div>
+        </footer>
+
+        <!-- Modernizr script for webP -->
+        <script src="js/modernizr.js"></script>
+    </body>
+</html>
